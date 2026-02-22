@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NAKNOHACK | Shop Blox Fruit & Robux Uy Tín</title>
+    <style>
+        :root { --primary: #00ccff; --accent: #ff0055; --bg: #0a0a0a; --card-bg: #151515; }
+        body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; background: var(--bg); color: white; margin: 0; padding: 0; }
+        
+        /* Header & Nav */
+        header { background: linear-gradient(90deg, #000, #1a1a1a); padding: 20px; text-align: center; border-bottom: 2px solid var(--primary); }
+        .logo { font-size: 35px; font-weight: 900; color: var(--primary); text-shadow: 0 0 10px var(--primary); letter-spacing: 2px; }
+        nav { background: #111; padding: 10px; text-align: center; sticky; top: 0; z-index: 1000; }
+        nav a { color: #ccc; margin: 0 15px; text-decoration: none; font-weight: bold; transition: 0.3s; }
+        nav a:hover { color: var(--primary); text-shadow: 0 0 5px var(--primary); }
+
+        .container { max-width: 1200px; margin: auto; padding: 20px; }
+        .section-title { border-left: 5px solid var(--accent); padding-left: 15px; margin: 40px 0 20px; text-transform: uppercase; }
+
+        /* Grid Hệ thống */
+        .grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(220px, 1fr)); gap: 20px; }
+        
+        /* Card Sản phẩm */
+        .card { background: var(--card-bg); border-radius: 12px; overflow: hidden; border: 1px solid #222; transition: 0.3s; position: relative; }
+        .card:hover { transform: translateY(-10px); border-color: var(--primary); box-shadow: 0 10px 20px rgba(0,204,255,0.2); }
+        .card img { width: 100%; height: 180px; object-fit: cover; }
+        .card-info { padding: 15px; text-align: center; }
+        .card-info h3 { margin: 10px 0; font-size: 18px; }
+        .price { font-size: 20px; font-weight: bold; color: #00ff88; margin-bottom: 15px; }
+        .btn-buy { background: var(--primary); color: #000; border: none; padding: 10px; width: 100%; font-weight: bold; cursor: pointer; border-radius: 5px; }
+        .btn-buy:hover { background: white; }
+
+        /* Hiệu ứng Túi mù đặc biệt */
+        .blind-box { border: 1px dashed var(--accent); }
+        .blind-box.high-tier { border: 2px solid gold; box-shadow: inset 0 0 10px gold; }
+        .badge { position: absolute; top: 10px; right: 10px; background: var(--accent); padding: 5px 10px; font-size: 12px; border-radius: 5px; }
+    </style>
+</head>
+<body>
+
+<header>
+    <div class="logo">NAKNOHACK.COM</div>
+    <p style="color: #666;">Dịch vụ Blox Fruit số 1 Việt Nam</p>
+</header>
+
+<nav>
+    <a href="#robux">MUA ROBUX</a>
+    <a href="#vinh-vien">TRÁI VĨNH VIỄN</a>
+    <a href="#gamepass">GAMEPASS</a>
+    <a href="#tui-mu">TÚI MÙ (RANDOM)</a>
+    <a href="#cay-thue">CÀY THUÊ</a>
+</nav>
+
+<div class="container">
+    
+    <!-- DANH MỤC TÚI MÙ -->
+    <h2 id="tui-mu" class="section-title">🎁 SIÊU PHẨM TÚI MÙ (RANDOM ACC)</h2>
+    <div class="grid">
+        <!-- 1k -->
+        <div class="card blind-box">
+            <div class="badge">GIÁ RẺ</div>
+            <img src="https://i.imgur.com" alt="Túi mù 1k">
+            <div class="card-info">
+                <h3>Túi Mù Sơ Cấp</h3>
+                <div class="price">1,000đ</div>
+                <button class="btn-buy">THỬ VẬN MAY</button>
+            </div>
+        </div>
+        <!-- 10k & 19k -->
+        <div class="card blind-box">
+            <img src="https://i.imgur.com" alt="Túi mù 10k">
+            <div class="card-info"><h3>Túi Mù Bình Dân</h3><div class="price">10,000đ</div><button class="btn-buy">MUA NGAY</button></div>
+        </div>
+        <div class="card blind-box">
+            <img src="https://i.imgur.com" alt="Túi mù 19k">
+            <div class="card-info"><h3>Túi Mù Trung Cấp</h3><div class="price">19,000đ</div><button class="btn-buy">MUA NGAY</button></div>
+        </div>
+        <!-- 50k & 100k -->
+        <div class="card blind-box">
+            <img src="https://i.imgur.com" alt="Túi mù 50k">
+            <div class="card-info"><h3>Túi Mù Cao Cấp</h3><div class="price">50,000đ</div><button class="btn-buy">MUA NGAY</button></div>
+        </div>
+        <div class="card blind-box">
+            <img src="https://i.imgur.com" alt="Túi mù 100k">
+            <div class="card-info"><h3>Túi Mù Siêu Cấp</h3><div class="price">100,000đ</div><button class="btn-buy">MUA NGAY</button></div>
+        </div>
+        <!-- 250k & 500k -->
+        <div class="card blind-box high-tier">
+            <div class="badge" style="background:gold; color:black">CỰC PHẨM</div>
+            <img src="https://i.imgur.com" alt="Túi mù 250k">
+            <div class="card-info"><h3>Túi Mù Huyền Thoại</h3><div class="price">250,000đ</div><button class="btn-buy">MUA NGAY</button></div>
+        </div>
+        <div class="card blind-box high-tier">
+            <div class="badge" style="background:gold; color:black">GOD TIER</div>
+            <img src="https://i.imgur.com" alt="Túi mù 500k">
+            <div class="card-info"><h3>Túi Mù Admin</h3><div class="price">500,000đ</div><button class="btn-buy">MUA NGAY</button></div>
+        </div>
+    </div>
+
+    <!-- DANH MỤC DỊCH VỤ -->
+    <h2 id="cay-thue" class="section-title">⚔️ DỊCH VỤ CÀY THUÊ & ROBUX</h2>
+    <div class="grid">
+        <div class="card">
+            <img src="https://i.imgur.com" alt="Robux">
+            <div class="card-info">
+                <h3>Nạp Robux Chính Hãng</h3>
+                <p>Giá cực rẻ, nhận sau 5 phút</p>
+                <button class="btn-buy" style="background: #00ff88;">XEM BẢNG GIÁ</button>
+            </div>
+        </div>
+        <div class="card">
+            <img src="https://i.imgur.com" alt="Cày thuê">
+            <div class="card-info">
+                <h3>Cày Thuê Blox Fruit</h3>
+                <p>Up Level, Lấy Kiếm, Farm Beli</p>
+                <button class="btn-buy" style="background: #ffaa00;">ĐẶT CÀY NGAY</button>
+            </div>
+        </div>
+    </div>
+
+</div>
+
+<footer style="text-align: center; padding: 50px; color: #444; border-top: 1px solid #222; margin-top: 50px;">
+    &copy; 2026 NAKNOHACK.COM - All Rights Reserved.
+</footer>
+
+</body>
+</html>
